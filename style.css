@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+html {
+  font-size: 10px;
+}
+
+body {
+  background: burlywood;
+  text-align: center;
+  font-family: 'Fira Sans', sans-serif;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+#body {
+  margin: 0;
+}
+
+#title {
+font-size: 5.5em;
+height: 20px;
+}
+
+#name {
+  font-size: 3.5em;
+  height: 20px;
+}
+#quote {
+  font-style: italic;
+  font-size: 1.5em;
+}
+
+img {
+  max-width: 75%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+#cap {
+  line-height: 1.2;
+  font-size: 1.3em;
+}
+
+.name-2 {
+  font-size: 2.0em;
+  font-weight: bold;
+  text-align: center;
+}
+
+#about {
+  white-space: pre-line;
+  font-size: 1.5em;
+}
+
+#title-2 {
+  font-size: 3.5em;
+  height: 10px;
+}
+#achievements {
+  display: inline-block;
+  align-items: left;
+}
+
+li {
+  text-align: left;
+  font-size: 1.5em;
+  padding-left: px;
+}
+
+#wiki {
+align-items: left;
+justify-content: left;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: blueviolet;
+}
+
+.collage {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+#port {
+  width: 400px;
+  height: 450px;
+  margin-right: 20px;
+}
+
+#bente {
+  width: 400px;
+  height: 450px;
+  margin-right: 20px;
+}
+
+#young {
+
+  width: 400px;
+  height: 450px;
+}
+/* 
+.captions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cpt {
+  flex-wrap: wrap;
+  align-content: center;
+  flex: 1;
+} */
+
+@media screen and (max-width: 800px) {
+  body {
+  margin: 0;
+  height: auto;
+  }
+#title {
+font-size: 4.5em;
+}
+
+#title-2 {
+  margin: 0 auto;
+  height: auto;
+  font-size: 3.3em;
+}
+
+.collage {
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+#port {
+  margin-bottom: 5px;
+  width: 200px;
+  height: 250px;
+}
+
+#bente {
+  margin: 0 auto;
+  width: 200px;
+  height: 250px;
+}
+
+#young {
+  margin-top: 5px;
+  width: 200px;
+  height: 250px;
+}
+}
+
+@media screen and (max-width: 1255px) {
+  #port {
+    margin-bottom: 10px;
+  }
+  #bente {
+    margin-left: -1px;
+    margin-bottom: 10px;
+  }
+}
+
+
+@media screen and (max-width: 1254px) {
+  #port {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  #port, #bente {
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  #title-2 {
+    margin: 0 auto;
+    height: auto;
+  }
+  #name {
+    font-size: 3.5em;
+  }
+
+  #young {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 627px) {
+  #title {
+    font-size: 4.5em;
+    margin: 0 auto;
+    height: auto;
+  }
+  #name {
+    margin-top: 0;
+    height: auto;
+    font-size: 2.5em;
+  }
+} 
+
+@media screen and (max-width: 420px) {
+  #port {
+    margin: 0 auto;
+    padding-bottom: 10px;
+  }
+
+  #bente {
+    padding-bottom: 10px;
+  }
+}
+
+
+@media screen and (max-width: 358px){
+  #title {
+    font-size: 4.0em;
+    margin: 0 auto;
+    height: auto;
+  }
+  .name-2 {
+    font-size: 1.5em;
+  }
+  #port {
+    margin: 0 auto;
+  }
+}
